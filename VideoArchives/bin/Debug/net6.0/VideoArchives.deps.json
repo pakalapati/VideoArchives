@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VideoArchives/1.0.0": {
+        "dependencies": {
+          "VideoArchivesModels": "1.0.0"
+        },
+        "runtime": {
+          "VideoArchives.dll": {}
+        }
+      },
+      "VideoArchivesModels/1.0.0": {
+        "runtime": {
+          "VideoArchivesModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VideoArchives/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VideoArchivesModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

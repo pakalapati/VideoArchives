@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI\\wwwroot\\media\\Video 1.mp4",
+      "PackagePath": "staticwebassets\\media\\Video 1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI\\wwwroot\\media\\Video 2.mp4",
+      "PackagePath": "staticwebassets\\media\\Video 2.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VideosArchiveAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VideosArchiveAPI.props",
+      "PackagePath": "build\\VideosArchiveAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VideosArchiveAPI.props",
+      "PackagePath": "buildMultiTargeting\\VideosArchiveAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VideosArchiveAPI.props",
+      "PackagePath": "buildTransitive\\VideosArchiveAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

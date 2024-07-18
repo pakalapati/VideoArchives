@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Video Archives";
+}
+
+<div class="text-center">
+
+    <div>
+        <button class="upload-button" onclick="showUploadForm()">Upload Video</button>
+    </div>
+
+    <div id="uploadFormContainer" class="hidden">
+        <h3>Upload Video</h3>
+        <form id="uploadForm" method="post" enctype="multipart/form-data">
+            <input type="file" name="files" multiple>
+            <button type="button"class="upload-button green" onclick="uploadVideo()">Upload</button>
+        </form>
+    </div>
+
+    <div id="noArchives" class="hidden alert alert-danger">No archives available. Please upload archives.</div>
+    <div id="clickArchives" class="hidden alert alert-success">Please click on an archive file name to start playing the video.</div>
+
+    <div id="videoContent" class="hidden">
+        <video id="videoPlayer" controls></video>
+
+        <h2>Archives</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>File Name</th>
+                    <th>File Size (Bytes)</th>
+                </tr>
+            </thead>
+            <tbody id="videoTableBody">
+                @foreach (var video in Model)
+                {
+                    <tr onclick="playVideo('@video.FilePath')">
+                        <td>@video.FileName</td>
+                        <td>@video.FileSize</td>
+                    </tr>
+                }
+            </tbody>
+        </table>        
+    </div>
+</div>
+
+<script>
+    // Check if videos are available
+    var videosAvailable = @((Model != null && Model.Count > 0).ToString().ToLower());
+
+    // Function to show upload message if no videos are available
+    function showUploadMessage() {        
+
+        if (!videosAvailable) {
+            document.getElementById('noArchives').classList.remove('hidden');
+        }
+        else { 
+            document.getElementById('videoContent').classList.remove('hidden');
+            document.getElementById('clickArchives').classList.remove('hidden');
+        }
+    }
+
+    // Call the function when the page loads
+    document.addEventListener('DOMContentLoaded', function () {
+        showUploadMessage();
+    });
+</script>

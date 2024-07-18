@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aditya\\source\\repos\\VideoArchives\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B45757E2-3690-4D28-B8BF-66E93DEC00C6}|..\\VideosArchiveAPI.Test\\VideosArchiveAPI.Test.csproj|c:\\users\\aditya\\source\\repos\\videosarchiveapi.test\\services\\uploadsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45757E2-3690-4D28-B8BF-66E93DEC00C6}|..\\VideosArchiveAPI.Test\\VideosArchiveAPI.Test.csproj|c:\\users\\aditya\\source\\repos\\videosarchiveapi.test\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B88D7E2D-9E3F-42C4-9F25-3021DC9367DC}|..\\VideosArchiveAPI\\VideosArchiveAPI.csproj|c:\\users\\aditya\\source\\repos\\videosarchiveapi\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadsServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI.Test\\Services\\UploadsServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\VideosArchiveAPI.Test\\Services\\UploadsServiceTests.cs",
+              "ToolTip": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI.Test\\Services\\UploadsServiceTests.cs",
+              "RelativeToolTip": "..\\VideosArchiveAPI.Test\\Services\\UploadsServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:39:10.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI.Test\\Usings.cs",
+              "RelativeDocumentMoniker": "..\\VideosArchiveAPI.Test\\Usings.cs",
+              "ToolTip": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI.Test\\Usings.cs",
+              "RelativeToolTip": "..\\VideosArchiveAPI.Test\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:38:34.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VideosController.cs",
+              "DocumentMoniker": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI\\Controllers\\VideosController.cs",
+              "RelativeDocumentMoniker": "..\\VideosArchiveAPI\\Controllers\\VideosController.cs",
+              "ToolTip": "C:\\Users\\aditya\\source\\repos\\VideosArchiveAPI\\Controllers\\VideosController.cs",
+              "RelativeToolTip": "..\\VideosArchiveAPI\\Controllers\\VideosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:32:45.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

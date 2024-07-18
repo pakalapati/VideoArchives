@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "n8RrCw11No4aFzyM2VXnvrmGHC+IJ3pOg+9bf+dU/pI=",
+  "Source": "VideosArchivesAPI",
+  "BasePath": "_content/VideosArchivesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VideosArchivesAPI\\wwwroot",
+      "Source": "VideosArchivesAPI",
+      "ContentRoot": "C:\\VideoArchivesTest\\VideosArchivesAPI\\wwwroot\\",
+      "BasePath": "_content/VideosArchivesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "VideoArchivesModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VideoArchivesModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoArchivesModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VideoArchivesModels/1.0.0": {
+      "type": "project",
+      "path": "../VideoArchivesModels/VideoArchivesModels.csproj",
+      "msbuildProject": "../VideoArchivesModels/VideoArchivesModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "VideoArchivesModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aditya\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\VideoArchivesTest\\VideoArchives\\VideoArchives.csproj",
+      "projectName": "VideoArchives",
+      "projectPath": "C:\\VideoArchivesTest\\VideoArchives\\VideoArchives.csproj",
+      "packagesPath": "C:\\Users\\aditya\\.nuget\\packages\\",
+      "outputPath": "C:\\VideoArchivesTest\\VideoArchives\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aditya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\VideoArchivesTest\\VideoArchivesModels\\VideoArchivesModels.csproj": {
+              "projectPath": "C:\\VideoArchivesTest\\VideoArchivesModels\\VideoArchivesModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
